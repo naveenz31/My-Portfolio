@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO: Change this to your name -->
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.22.0",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
+    "react-dropzone": "https://aistudiocdn.com/react-dropzone@^14.3.8",
+    "@tailwindcss/browser": "https://aistudiocdn.com/@tailwindcss/browser@^4.1.14",
+    "remark-gfm": "https://aistudiocdn.com/remark-gfm@^4.0.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.544.0",
+    "@monaco-editor/react": "https://aistudiocdn.com/@monaco-editor/react@^4.7.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <!-- TODO: Change this to your name or logo -->
+        <div class="logo">NAVEEN G</div>
+        <input type="checkbox" id="menu-toggle" hidden>
+        <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-left">
+            <!-- TODO: Change this to your professional tagline -->
+            <p class="tagline">PASSIONATE PROFESSIONAL</p>
+            <!-- TODO: Change this to your name and what you do -->
+            <h1>Hi, I am <span>Naveen G</span><br>I build amazing things,<br>Showcasing Creativity</h1>
+            <div class="buttons">
+                <a href="#contact" class="btn primary">Hire me</a>
+                <!-- TODO: Add your resume to the 'assets' folder and name it 'resume.pdf' -->
+                <a href="./assets/Naveen G B-Tech CSE 2025(7.88).pdf" class="btn outline" download>Download CV</a>
+            </div>
+        </div>
+        <div class="hero-right">
+            <div class="bg-skew"></div>
+            <!-- TODO: Add your profile picture to the 'assets' folder and name it 'profile.jpg' -->
+            <img src="./assets/profile2.png" alt="It's my profile picture" />
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img">
+                    <!-- TODO: Add a picture for your 'about' section to 'assets' and name it 'about.jpg' -->
+                    <img src="./assets/about.png" alt="Profile Picture">
+                </div>
+                <div class="about-content">
+                    <h5 class="section-subtitle">MY INTRODUCTION</h5>
+                    <h2>About Me</h2>
+                    <!-- TODO: Write a short introduction about yourself -->
+                    <p>
+                        I'm a passionate and dedicated professional with a strong interest in technology and problem-solving. I am committed to continuous learning and driving innovation in my field. I have strong skills in various technologies and I'm always eager to take on new challenges.
+                    </p>
+                    <p>
+                        I have experience working on various projects, from initial concept to deployment. I enjoy collaborating with teams to build high-quality, user-friendly applications.
+                    </p>
+                    <div class="about-details">
+                        <!-- TODO: Fill in your personal details -->
+                        <p><strong>Name:</strong> Naveen G</p>
+                        <p><strong>Address:</strong> Chennai, Tamilnadu, India</p>
+                        <p><strong>Zip code:</strong> 600102</p>
+                        <p><strong>Email:</strong> naveenz3112@gmail.com</p>
+                        <p><strong>Phone:</strong> +91-76048-69090</p>
+                        
+                    </div>
+                    <div class="interests">
+                        <!-- TODO: List your interests/hobbies -->
+                        <span><i class="fas fa-book-open"></i> Books</span>
+                        <span><i class="fas fa-laptop-code"></i> Coding</span>
+                        <span><i class="fas fa-dumbbell"></i> fitness</span>
+                        <span><i class="fas fa-palette"></i> Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills-slider">
+            <div class="skills-track">
+                <!-- TODO: Add your skills here. You can duplicate the skill-card div for more skills. -->
+                <div class="skill-card"><h4>Java</h4><div class="level-label">Strong</div></div>
+                <div class="skill-card"><h4>Node.js</h4><div class="level-label">Intermediate</div></div>
+                <div class="skill-card"><h4>HTML & CSS</h4><div class="level-label">Good</div></div>
+                <div class="skill-card"><h4>Java</h4><div class="level-label">Strong</div></div>
+                <div class="skill-card"><h4>Node.js</h4><div class="level-label">Intermediate</div></div>
+                <div class="skill-card"><h4>HTML & CSS</h4><div class="level-label">Good</div></div>
+                <div class="skill-card"><h4>SQL</h4><div class="level-label">Good</div></div>
+                <div class="skill-card"><h4>Git & GitHub</h4><div class="level-label">Good</div></div>
+                <div class="skill-card"><h4>UI/UX Design</h4><div class="level-label">Basic</div></div>
+                <div class="skill-card"><h4>Excel</h4><div class="level-label">Basic</div></div>
+                <!-- Duplicate for animation effect -->
+                <div class="skill-card"><h4>Java</h4><div class="level-label">Strong</div></div>
+                <div class="skill-card"><h4>Node.js</h4><div class="level-label">Intermediate</div></div>
+                <div class="skill-card"><h4>HTML & CSS</h4><div class="level-label">Good</div></div>
+                <div class="skill-card"><h4>SQL</h4><div class="level-label">Good</div></div>
+                <div class="skill-card"><h4>Git & GitHub</h4><div class="level-label">Good</div></div>
+                <div class="skill-card"><h4>UI/UX Design</h4><div class="level-label">Basic</div></div>
+                <div class="skill-card"><h4>Excel</h4><div class="level-label">Basic</div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <!-- TODO: Add your projects here. You can duplicate the project-card div for more projects. -->
+            <div class="project-card">
+                <img src="./assets/project1.png" alt="Portfolio webpage"/>
+                 <!-- TODO: Add a background image for your project card -->
+                <div class="project-info">
+                    <h3>Portfolio</h3>
+                    <p>Technologies used: React, Node.js, CSS</p>
+                </div>
+            </div>            
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <!-- TODO: Replace with your FormSubmit.co email link in the action attribute -->
+            <form class="contact-form" action="https://formsubmit.co/your.email@example.com" method="POST">
+                <div class="form-group"><input type="text" id="name" name="name" placeholder="Your Name" required /></div>
+                <div class="form-group"><input type="email" id="email" name="email" placeholder="Your Email" required /></div>
+                <div class="form-group"><textarea rows="5" id="message" name="message" placeholder="Your Message" required></textarea></div>
+                <div class="button-group">
+                    <!-- TODO: Replace 'yourwhatsappnumber' with your phone number (including country code, e.g., 12345678900) -->
+                    <button type="button" class="btn primary" onclick="sendWhatsApp('+91-7604869090')">Send via WhatsApp</button>
+                    <button type="submit" class="btn outline">Send via Email</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- TODO: Change this to your name -->
+            <h3>NAVEEN G</h3>
+            <p>Showcasing Creativity🚀</p>
+            <div class="social-icons">
+                <!-- TODO: Add links to your social media profiles -->
+                <a href="https://github.com/naveenz31" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/naveen-g-039480255" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/nav_een_31?igsh=MTRhMWYyZndqYWU1cQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <!-- TODO: Change this to your name -->
+            <p class="copyright">© 2025 Naveen G All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ScrollReveal JS for animations -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+<script type="module" src="/index.tsx"></script>
+</body>
+
+</html>
